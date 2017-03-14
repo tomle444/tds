@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nv_Featured>
+            <version>0.1.0</version>
+        </Nv_Featured>
+    </modules>
+    <global>
+        
+    </global>
+    <default>
+        <nvfeaturedtab>
+			<featured_group>
+				<featured_category_id>95</featured_category_id>				
+			</featured_group>			   
+        </nvfeaturedtab>       
+    </default>     
+</config>

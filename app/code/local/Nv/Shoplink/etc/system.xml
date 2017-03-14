@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <nvshoplinktab translate="label">
+            <label>Navigation Shop Link Category</label>
+            <sort_order>140</sort_order>
+        </nvshoplinktab>
+    </tabs>
+    <sections>
+        <nvshoplinktab translate="label" module="adminhtml">
+            <label>Shop Link Category</label>
+            <tab>nvshoplinktab</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>                
+                <shoplink_group translate="label comment">
+                	<label>Shop Link Category</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                    	<shoplink_category_id translate="label">
+                            <label>Shop Link Category ID:</label>
+                            <comment>Category ID is found under Catalog > Manage Categories</comment>
+                            <frontend_type>text</frontend_type>     
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </shoplink_category_id>                       
+                    </fields>
+                </shoplink_group>              
+            </groups>
+        </nvshoplinktab>        
+    </sections>
+</config>

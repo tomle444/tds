@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nv_Shoplink>
+            <version>0.1.0</version>
+        </Nv_Shoplink>
+    </modules>
+    <global>
+    </global>
+
+    <!-- Set default value for shoplink category -->
+    <default>
+        <nvshoplinktab>
+			<shoplink_group>
+				<shoplink_category_id>3</shoplink_category_id>				
+			</shoplink_group>			   
+        </nvshoplinktab>       
+    </default>     
+</config>
